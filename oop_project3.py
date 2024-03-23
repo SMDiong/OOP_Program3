@@ -38,4 +38,30 @@ print(blue + text2art(user_name, font="block",))
 
 # Print age input in a fancy way
 print("\n")
-print(blue + text2art(user_age, font="block"))
+print(text2art(user_age, font="block"))
+
+# Print sex input in a fancy way
+print("\n")
+print(text2art(user_sex, font="block"))
+
+# Print dream job input in a fancy way
+print("\n")
+print(text2art(dream_job, font="block"))
+
+# Print email address input in a fancy way
+print("\n")
+print(text2art(email_address))
+
+# Print city input in a fancy way
+print("\n")
+print(text2art(user_city, font="block"))
+
+# Print school input in a fancy way
+print("\n")
+print(text2art(user_school, font="block"))
+
+# Print course input in a fancy way
+print("\n")
+print(text2art(user_course, font="block"))
+
+#end
