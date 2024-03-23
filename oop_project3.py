@@ -5,16 +5,17 @@
 # Word Formatting for Fancy Words
 from art import *
 green = "\033[0;32m"
+blue = "\033[0;34m"
 color_reset = "\033[0m"
 
 # This will ask the user what's their name
 user_name = input(green + "Please enter your name: ")
 
 # This will ask the user what's their age
-age = input("Please enter your age: ")
+user_age = input("Please enter your age: ")
 
 # This will ask the user what's their sex
-sex = input("Please enter your sex: ")
+user_sex = input("Please enter your sex: ")
 
 # This will ask the user what's their dream job
 dream_job = input("Please enter your dream job: ")
@@ -31,4 +32,10 @@ user_school = input("Please enter your school: ")
 # This will ask the user what's their course
 user_course = input("Please enter your course: " + color_reset)
 
-# Print inputs from the user
+# Print name input in a fancy way
+print("\n")
+print(blue + text2art(user_name, font="block",))
+
+# Print age input in a fancy way
+print("\n")
+print(blue + text2art(user_age, font="block"))
