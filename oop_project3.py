@@ -4,9 +4,11 @@
 
 # Word Formatting for Fancy Words
 from art import *
+green = "\033[0;32m"
+color_reset = "\033[0m"
 
 # This will ask the user what's their name
-user_name = input("Please enter your name: ")
+user_name = input(green + "Please enter your name: ")
 
 # This will ask the user what's their age
 age = input("Please enter your age: ")
@@ -27,6 +29,6 @@ user_city = input("Please enter your city: ")
 user_school = input("Please enter your school: ")
 
 # This will ask the user what's their course
-user_course = input("Please enter your course: ")
+user_course = input("Please enter your course: " + color_reset)
 
 # Print inputs from the user
