@@ -2,6 +2,8 @@
 # March 23, 2024
 # Project 3
 
+# Word Formatting for Fancy Words
+
 # This will ask the user what's their name
 
 # This will ask the user what's their age
